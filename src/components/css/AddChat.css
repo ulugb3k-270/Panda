@@ -1,0 +1,42 @@
+.addChat__container {
+  position: relative;
+  background: rgba(0, 0, 0, 0.61);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+  transition: 1s ease;
+  row-gap: 10px;
+  margin-top: -124px;
+}
+
+.addChat__container > input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.addChat__container > input:focus-visible {
+  outline: none;
+}
+
+.addChat__container.active {
+  margin-top: 0;
+}
+
+.addChat__containerButtons{
+    display: flex;
+    gap: 10px;
+}
+
+
+.addChat__containerButtons > .MuiButton-contained{
+    background: rgb(0, 81, 255);
+    color: white;
+}
+
+.addChat__containerButtons > .MuiButton-contained:hover{
+    background: rgb(4, 68, 204);
+    color: white;
+}

@@ -1,0 +1,86 @@
+.pandaChatSidebar{
+    flex: 0.30;
+    display: flex;
+    flex-direction: column;
+}
+
+.pandaChatApp__nav{
+    z-index: 1;
+}
+
+.pandaChatSidebar__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+    align-items: center;
+    z-index: 1;
+    background: #ededed;
+}
+
+
+
+.pandaChatSidebar__headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 6vw;
+
+}
+
+.pandaChatSidebar__headerRight > .MuiSvgIcon-root{
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
+
+.pandaChatSidebar__search{
+    display: none;
+    align-items: center;
+    background-color: #ebebeb;
+    height: 39px;
+    padding: 10px;
+    
+}
+
+.pandaChatSidebar__searchContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.pandaChatSidebar__searchContainer > input{
+    border: none;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.pandaChatSidebar__searchContainer > input:focus{
+    outline: none;
+}
+
+.pandaChatSidebar__searchContainer > .MuiSvgIcon-root{
+    color: gray;
+    
+}
+
+.pandaChatSidebar__chats{
+    flex: 1;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.pandaChatSidebar__chats::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+.pandaChatSidebar__chats::-webkit-scrollbar-thumb{
+    background: #cacaca;
+    border-radius: 10px;
+}

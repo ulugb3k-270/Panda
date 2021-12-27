@@ -1,0 +1,110 @@
+.pandaChatChat{
+    flex: .70;
+    display: flex;
+    flex-direction: column;
+}
+
+.pandaChatChat__header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.pandaChatChat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.pandaChatChat__headerInfo >  p{
+    color: gray;
+}
+
+.pandaChatChat__headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+
+.pandaChatChat__body{
+    flex: 1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+.pandaChatChat__body::-webkit-scrollbar{
+    width: 10px;
+    background: white;
+    border-radius: 10px;
+}
+.pandaChatChat__body::-webkit-scrollbar-thumb{
+    background: #cacaca;
+    border-radius: 10px;
+}
+
+.pandaChatChat__bodyChatMessage{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.pandaChatChat__bodyChatName{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+    width: fit-content;
+}
+
+.pandaChatChat__bodyTime{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.pandaChatChat__bodyChatReciver{
+    margin-left: auto;
+    background: #dcf8c6;
+}
+
+.pandaChatChat__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    padding: 0 10px 0 10px;
+    gap: 10px;
+}
+
+.pandaChatChat__footer > form{
+    flex: 1;
+    display: flex;
+
+}
+
+.pandaChatChat__footer > form > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.pandaChatChat__footer > form > input:focus-visible{
+    outline: none;
+}
+
+.pandaChatChat__footer > form > button{
+    display: none;
+}
+
+.pandaChatChat__footer .MuiSvgIcon-root{
+    cursor: pointer;
+    color: grey;
+}

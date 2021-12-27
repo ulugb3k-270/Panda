@@ -1,0 +1,36 @@
+
+.pandaChatlogin{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0 auto;
+
+}
+.pandaChatlogin__container{
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px;
+}
+
+.pandaChatlogin__container > img{
+    object-fit: contain;
+    margin-bottom: 40px;
+}
+
+.pandaChatlogin__container > button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #010101;
+    color: white;
+}
+
+.pandaChatlogin__container > button:hover{
+    color: white;
+    background-color: #010101;
+}

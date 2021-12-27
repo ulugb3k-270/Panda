@@ -1,0 +1,38 @@
+.miniSearch{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.searchpage__nav{
+    margin-right: 10px;
+}
+
+
+
+.miniSearch > input{
+    width: 100%;
+    padding: 3px 5px;
+    outline: none;
+    background: #d2d3d5;
+    border: none;
+}
+
+.miniSearch > input:hover{
+    outline: none;
+}
+
+.miniSearch > .miniSearch__icon {
+    cursor: pointer;
+}
+
+.miniSearch__iconBtn{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
